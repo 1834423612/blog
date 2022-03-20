@@ -2,119 +2,119 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://tianli-blog.club/2021/01/01/hello-world/</loc>
+    <loc>http://blog.kjchmc.cn/2021/01/01/hello-world/</loc>
+    
+    <lastmod>2022-03-11</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://blog.kjchmc.cn/About/index.html</loc>
     
     <lastmod>2022-02-15</lastmod>
     
   </url>
   
   <url>
-    <loc>https://tianli-blog.club/About/index.html</loc>
+    <loc>http://blog.kjchmc.cn/Mem/1.10.html</loc>
     
     <lastmod>2022-02-15</lastmod>
     
   </url>
   
   <url>
-    <loc>https://tianli-blog.club/Test/index.html</loc>
+    <loc>http://blog.kjchmc.cn/Mem/2.5.html</loc>
     
     <lastmod>2022-02-15</lastmod>
     
   </url>
   
   <url>
-    <loc>https://tianli-blog.club/Mem/1.10.html</loc>
+    <loc>http://blog.kjchmc.cn/Test/index.html</loc>
     
     <lastmod>2022-02-15</lastmod>
     
   </url>
   
   <url>
-    <loc>https://tianli-blog.club/Mem/2.5.html</loc>
+    <loc>http://blog.kjchmc.cn/bb/index.html</loc>
     
     <lastmod>2022-02-15</lastmod>
     
   </url>
   
   <url>
-    <loc>https://tianli-blog.club/census/index.html</loc>
+    <loc>http://blog.kjchmc.cn/census/index.html</loc>
     
     <lastmod>2022-02-15</lastmod>
     
   </url>
   
   <url>
-    <loc>https://tianli-blog.club/bb/index.html</loc>
+    <loc>http://blog.kjchmc.cn/comments/index.html</loc>
     
     <lastmod>2022-02-15</lastmod>
     
   </url>
   
   <url>
-    <loc>https://tianli-blog.club/comments/index.html</loc>
+    <loc>http://blog.kjchmc.cn/fcircle/index.html</loc>
     
     <lastmod>2022-02-15</lastmod>
     
   </url>
   
   <url>
-    <loc>https://tianli-blog.club/fcircle/index.html</loc>
+    <loc>http://blog.kjchmc.cn/gallery/2233.html</loc>
     
     <lastmod>2022-02-15</lastmod>
     
   </url>
   
   <url>
-    <loc>https://tianli-blog.club/gallery/2233.html</loc>
+    <loc>http://blog.kjchmc.cn/gallery/index.html</loc>
     
     <lastmod>2022-02-15</lastmod>
     
   </url>
   
   <url>
-    <loc>https://tianli-blog.club/gallery/index.html</loc>
+    <loc>http://blog.kjchmc.cn/gallery/wallpaper.html</loc>
     
     <lastmod>2022-02-15</lastmod>
     
   </url>
   
   <url>
-    <loc>https://tianli-blog.club/gallery/wallpaper.html</loc>
+    <loc>http://blog.kjchmc.cn/link/index.html</loc>
     
     <lastmod>2022-02-15</lastmod>
     
   </url>
   
   <url>
-    <loc>https://tianli-blog.club/link/index.html</loc>
+    <loc>http://blog.kjchmc.cn/live2d-widget/waifu-tips.json</loc>
     
     <lastmod>2022-02-15</lastmod>
     
   </url>
   
   <url>
-    <loc>https://tianli-blog.club/live2d-widget/waifu-tips.json</loc>
+    <loc>http://blog.kjchmc.cn/tags/index.html</loc>
     
     <lastmod>2022-02-15</lastmod>
     
   </url>
   
   <url>
-    <loc>https://tianli-blog.club/tags/index.html</loc>
+    <loc>http://blog.kjchmc.cn/live2d-widget/demo/demo.html</loc>
     
     <lastmod>2022-02-15</lastmod>
     
   </url>
   
   <url>
-    <loc>https://tianli-blog.club/live2d-widget/demo/demo.html</loc>
-    
-    <lastmod>2022-02-15</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://tianli-blog.club/live2d-widget/demo/login.html</loc>
+    <loc>http://blog.kjchmc.cn/live2d-widget/demo/login.html</loc>
     
     <lastmod>2022-02-15</lastmod>
     
@@ -122,16 +122,16 @@
   
 
   <url>
-    <loc>https://tianli-blog.club/</loc>
-    <lastmod>2022-03-07</lastmod>
+    <loc>http://blog.kjchmc.cn/</loc>
+    <lastmod>2022-03-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
   
   <url>
-    <loc>https://tianli-blog.club/tags/hexo/</loc>
-    <lastmod>2022-03-07</lastmod>
+    <loc>http://blog.kjchmc.cn/tags/hexo/</loc>
+    <lastmod>2022-03-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
