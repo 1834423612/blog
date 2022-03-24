@@ -6,7 +6,7 @@
   <link href="http://blog.kjchmc.cn/atom.xml" rel="self"/>
   
   <link href="http://blog.kjchmc.cn/"/>
-  <updated>2022-03-20T09:55:55.281Z</updated>
+  <updated>2022-03-20T10:59:39.645Z</updated>
   <id>http://blog.kjchmc.cn/</id>
   
   <author>
@@ -17,24 +17,26 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title></title>
-    <link href="http://blog.kjchmc.cn/2022/03/20/vp9lpa/"/>
-    <id>http://blog.kjchmc.cn/2022/03/20/vp9lpa/</id>
-    <published>2022-03-20T09:55:55.281Z</published>
-    <updated>2022-03-20T09:55:55.281Z</updated>
+    <title>Hello World</title>
+    <link href="http://blog.kjchmc.cn/2021/01/01/hello-world/"/>
+    <id>http://blog.kjchmc.cn/2021/01/01/hello-world/</id>
+    <published>2020-12-31T16:00:00.000Z</published>
+    <updated>2022-03-20T10:59:39.645Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;hr&gt;
-&lt;h2 id=&quot;title-开篇&quot;&gt;&lt;a href=&quot;#title-开篇&quot; class=&quot;headerlink&quot; title=&quot;title: 开篇&quot;&gt;&lt;/a&gt;title: 开篇&lt;/h2&gt;&lt;p&gt;date: 2021-12-04 23:18:31&lt;br&gt;tags:</summary>
+    <summary type="html">&lt;p&gt;欢迎来到 &lt;a href=&quot;tianli-blog.club&quot;&gt;Tianli’s blog&lt;/a&gt;! 这是一个基于hexo搭建的博客。&lt;/p&gt;
+&lt;h2 id=&quot;Quick-Start&quot;&gt;&lt;a href=&quot;#Quick-Start&quot; class=&quot;headerlink&quot;</summary>
         
       
     
     
     
+    
+    <category term="hexo" scheme="http://blog.kjchmc.cn/tags/hexo/"/>
     
   </entry>
   
