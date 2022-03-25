@@ -9,6 +9,13 @@
   </url>
   
   <url>
+    <loc>http://blog.kjchmc.cn/Test/index.html</loc>
+    
+    <lastmod>2022-02-15</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://blog.kjchmc.cn/About/index.html</loc>
     
     <lastmod>2022-02-15</lastmod>
@@ -30,13 +37,6 @@
   </url>
   
   <url>
-    <loc>http://blog.kjchmc.cn/Test/index.html</loc>
-    
-    <lastmod>2022-02-15</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://blog.kjchmc.cn/bb/index.html</loc>
     
     <lastmod>2022-02-15</lastmod>
@@ -44,14 +44,14 @@
   </url>
   
   <url>
-    <loc>http://blog.kjchmc.cn/census/index.html</loc>
+    <loc>http://blog.kjchmc.cn/comments/index.html</loc>
     
     <lastmod>2022-02-15</lastmod>
     
   </url>
   
   <url>
-    <loc>http://blog.kjchmc.cn/comments/index.html</loc>
+    <loc>http://blog.kjchmc.cn/census/index.html</loc>
     
     <lastmod>2022-02-15</lastmod>
     
@@ -123,7 +123,7 @@
 
   <url>
     <loc>http://blog.kjchmc.cn/</loc>
-    <lastmod>2022-03-20</lastmod>
+    <lastmod>2022-03-25</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -131,7 +131,7 @@
   
   <url>
     <loc>http://blog.kjchmc.cn/tags/hexo/</loc>
-    <lastmod>2022-03-20</lastmod>
+    <lastmod>2022-03-25</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
