@@ -1,3 +1,10 @@
-Disallow: /Test/
-Disallow: /Love/
-Sitemap: https://tianli-blog.club/sitemap.xml
+# welcome to : blog.kjchmc.cn 
+User-agent: *
+Allow: /
+
+Disallow: /js/
+Disallow: /css/
+Disallow: /fonts/
+Disallow: /vendors/
+Disallow: /lib/
+Sitemap: https://blog.kjchmc.cn/sitemap.xml

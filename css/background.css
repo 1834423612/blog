@@ -120,16 +120,16 @@ div#post{
 
 /*设置自定义字体*/
 @font-face {
-    font-family: 'font';
+    font-family: 'kjch';
     /* 字体名自定义即可 */
-    src: url('https://blog.kjchmc.cn/fonts/ZhuZiAWan.woff2');
+    src: url('https://cdn.jsdelivr.net/gh/1834423612/blog@master/fonts/ZhuZiAWan.woff2');
     /* 字体文件路径 */
     font-display: swap;
 }
 
 body,
 .gitcalendar {
-    font-family: font !important;
+    font-family: kjch !important;
 }
 
 /* 首页文章卡片 */
