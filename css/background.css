@@ -138,7 +138,7 @@ body,
 }
 /* 首页侧栏卡片 */
 .card-widget{
-  background:rgba(255, 255, 255, 0.6)!important;
+  background:rgba(255, 255, 255, 0.2)!important;
 }
 /* 文章页面正文背景 */
 /*div#post{
