@@ -72,7 +72,7 @@
   content: '';
 }
 /*夜间模式伪类遮罩层透明*/
-[data-theme="dark"]
+/*[data-theme="dark"]
   #footer::before{
       background: transparent!important;
     }
@@ -107,7 +107,7 @@ div#post{
 [data-theme="dark"]
 .icp{
   color: rgba(253, 253, 253, 0.8);
-}
+}*/
 /*那年今日卡片颜色修改*/
 :root{
 --card-bg: #12121200;
@@ -141,13 +141,13 @@ body,
   background:rgba(255, 255, 255, 0.6)!important;
 }
 /* 文章页面正文背景 */
-div#post{
+/*div#post{
   background: rgba(255, 255, 255, 0.6);
-}
+}/*
 /* 分页页面 */
-div#page{
+/*div#page{
   background: rgba(255, 255, 255, 0.6);
-}
+}*/
 /* 归档页面 */
 div#archive{
   background: rgba(255, 255, 255, 0.6);
