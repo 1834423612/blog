@@ -150,6 +150,20 @@
     <priority>0.6</priority>
   </url>
   
+  <url>
+    <loc>http://blog.kjchmc.cn/tags/github/</loc>
+    <lastmod>2022-04-29</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
 
+  
+  <url>
+    <loc>http://blog.kjchmc.cn/categories/%E7%BB%8F%E9%AA%8C%E5%88%86%E4%BA%AB/</loc>
+    <lastmod>2022-04-29</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
   
 </urlset>
