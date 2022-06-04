@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.kjchmc.cn/link/index.html</loc>
+    
+    <lastmod>2022-06-04</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://blog.kjchmc.cn/About/index.html</loc>
     
     <lastmod>2022-06-04</lastmod>
@@ -44,14 +51,14 @@
   </url>
   
   <url>
-    <loc>https://blog.kjchmc.cn/census/index.html</loc>
+    <loc>https://blog.kjchmc.cn/bb/index.html</loc>
     
     <lastmod>2022-02-15</lastmod>
     
   </url>
   
   <url>
-    <loc>https://blog.kjchmc.cn/bb/index.html</loc>
+    <loc>https://blog.kjchmc.cn/census/index.html</loc>
     
     <lastmod>2022-02-15</lastmod>
     
@@ -72,13 +79,6 @@
   </url>
   
   <url>
-    <loc>https://blog.kjchmc.cn/gallery/index.html</loc>
-    
-    <lastmod>2022-02-15</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://blog.kjchmc.cn/gallery/2233.html</loc>
     
     <lastmod>2022-02-15</lastmod>
@@ -86,14 +86,14 @@
   </url>
   
   <url>
-    <loc>https://blog.kjchmc.cn/gallery/wallpaper.html</loc>
+    <loc>https://blog.kjchmc.cn/gallery/index.html</loc>
     
     <lastmod>2022-02-15</lastmod>
     
   </url>
   
   <url>
-    <loc>https://blog.kjchmc.cn/link/index.html</loc>
+    <loc>https://blog.kjchmc.cn/gallery/wallpaper.html</loc>
     
     <lastmod>2022-02-15</lastmod>
     
