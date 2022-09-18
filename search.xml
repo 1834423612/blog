@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>如何用git将本地项目push到GitHub上</title>
+      <link href="posts/3797/"/>
+      <url>posts/3797/</url>
+      
+        <content type="html"><![CDATA[<h2 id="创建仓库"><a href="#创建仓库" class="headerlink" title="创建仓库"></a>创建仓库</h2><p><strong>1.进入你的 </strong><a href="https://github.com/">Github</a><strong> ，点击<code>New respository</code>来新建一个仓库。</strong><br><img src="https://raw.githubusercontents.com/1834423612/img-hosting/master/20220416/1.png" alt=""><br><strong>2.对新建仓库进行配置，可以参考图中示例进行填写。确认无误后点击<code>Create repository</code>创建仓库。</strong><br><img src="https://raw.githubusercontents.com/1834423612/img-hosting/master/20220416/2.png" alt=""><br><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">Repository name: 仓库名称（填写时要注意不能与自己的其他项目名重复）</span><br><span class="line">Description(可选): 仓库描述介绍</span><br><span class="line">Public, Private : 仓库权限（Public为所有人可见，Private为仅自己及指定的合作者可见）</span><br><span class="line">Initialize this repository with a README(可选): 添加一个项目介绍文件[README.md]</span><br><span class="line">gitignore(可选): 不需要进行版本管理的仓库类型，对应生成文件.gitignore</span><br><span class="line">license(可选): 证书类型，对应生成文件LICENSE</span><br></pre></td></tr></table></figure></p><p><strong>注意</strong>：请注意仓库的默认分支，避免后续使用其他项目提交代码时出现分支里无内容的情况。<strong>2019年12月以后</strong>默认分支为<code>main</code></p><p><strong>3.点击Code，克隆下面的地址备用</strong><br><img src="https://raw.githubusercontents.com/1834423612/img-hosting/master/20220416/3.png" alt=""></p><h2 id="安装Git"><a href="#安装Git" class="headerlink" title="安装Git"></a>安装Git</h2><p>前往Git<br><div class="tag link"><a class="link-card" title="Git" href="https://git-scm.com/"><div class="left"><img src="https://git-scm.com/favicon.ico"/></div><div class="right"><p class="text">Git</p><p class="url">https://git-scm.com/</p></div></a></div><br><strong>1.点击Download for Windows</strong><br><img src="https://raw.githubusercontents.com/1834423612/img-hosting/master/20220416/git.png" alt=""><br><strong>2.选择合适的版本进行下载，下载后安装一路next即可。</strong><br><img src="https://raw.githubusercontents.com/1834423612/img-hosting/master/20220416/git1.png" alt=""><br><strong>3.安装后在cmd中输入以下命令，检查是否安装正确。</strong><br><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span><span class="bash"> git version</span></span><br></pre></td></tr></table></figure><br><img src="https://raw.githubusercontents.com/1834423612/img-hosting/master/20220429/git-version.png" alt=""></p><h2 id="上传"><a href="#上传" class="headerlink" title="上传"></a>上传</h2><p><strong>1.在电脑上找到你要上传到Github上面的那个项目文件夹，进入项目文件夹，单击鼠标右键，选择Git Bash Here,如下图所示。</strong><br><img src="https://raw.githubusercontents.com/1834423612/img-hosting/master/20220416/4-1.png" alt=""><br><strong>2.输入以下代码将Github仓库的初始数据下载下来。</strong><br><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span><span class="bash"> git <span class="built_in">clone</span> https://github.com/1834423612/test.git     <span class="comment">#将链接替换成你的Github仓库地址）</span></span></span><br></pre></td></tr></table></figure><br><img src="https://raw.githubusercontents.com/1834423612/img-hosting/master/20220416/4.png" alt=""><br><strong>3.下载后本地项目文件夹内会多出一个文件夹，该文件夹的名称即为你github上面的项目名。我们把本地项目文件夹中的所有文件（除了新多出的那个文件夹不用），其余都复制到那个新多出的文件夹下（本图中已省略该步骤）。</strong><br><img src="https://raw.githubusercontents.com/1834423612/img-hosting/master/20220416/5.png" alt=""><br><strong>4.接着继续输入命令<code>cd test</code>或右键重复上步骤进入文件夹（请将test改为自己的仓库名）</strong><br><img src="https://raw.githubusercontents.com/1834423612/img-hosting/master/20220416/6.png" alt=""><br><strong>5.然后依次执行以下代码完成后续操作：</strong><br><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span><span class="bash"> git add .                     <span class="comment">#不要忘记命令最后的. ，该操作会将test文件夹内的文件全部添加</span></span></span><br><span class="line"><span class="meta">$</span><span class="bash"> git commit  -m  <span class="string">&quot;提交信息&quot;</span>    <span class="comment">#“提交信息”可自行替换，如“first commit”</span></span></span><br><span class="line"><span class="meta">$</span><span class="bash"> git push -u origin main       <span class="comment">#将本地仓库push到Github上，输入该命令后需要输入Github的帐号和密码</span></span></span><br></pre></td></tr></table></figure><br>注意：执行第三个命令时可能需要提供账号及密码，账号即为你的Github注册的邮箱，密码输入时命令处不会有变化，输入完毕直接回车。<br><img src="https://raw.githubusercontents.com/1834423612/img-hosting/master/20220416/7.png" alt=""><br><img src="https://raw.githubusercontents.com/1834423612/img-hosting/master/20220416/8.png" alt=""><br><strong>6.大功告成！刷新网页即可查看提交的项目。</strong><br><img src="https://raw.githubusercontents.com/1834423612/img-hosting/master/20220416/9.png" alt=""><br><strong>注意：在克隆仓库和push代码时有概率会因为网络波动问题导致上传报错，可以尝试多次提交。</strong></p><p><strong>国内网络访问质量不好的推荐使用加速插件：</strong><br><div class="tag link"><a class="link-card" title="FastGithub" href="https://github.com/dotnetcore/FastGithub"><div class="left"><img src="https://github.com/favicon.ico"/></div><div class="right"><p class="text">FastGithub</p><p class="url">https://github.com/dotnetcore/FastGithub</p></div></a></div></p><p><strong>其他的一些git指令</strong>：<br><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span><span class="bash"> git init                    <span class="comment">#把当前目录变成git可以管理的仓库</span></span></span><br><span class="line"><span class="meta">$</span><span class="bash"> git add readme.txt          <span class="comment">#添加一个文件，也可以添加文件夹</span></span></span><br><span class="line"><span class="meta">$</span><span class="bash"> git add -A                  <span class="comment">#添加全部文件</span></span></span><br><span class="line"><span class="meta">$</span><span class="bash"> git commit -m <span class="string">&quot;some commit&quot;</span> <span class="comment">#提交修改</span></span></span><br><span class="line"><span class="meta">$</span><span class="bash"> git status                  <span class="comment">#查看是否还有未提交</span></span></span><br><span class="line"><span class="meta">$</span><span class="bash"> git <span class="built_in">log</span>                     <span class="comment">#查看最近日志</span></span></span><br><span class="line"><span class="meta">$</span><span class="bash"> git reset --hard HEAD^      <span class="comment">#版本回退一个版本</span></span></span><br><span class="line"><span class="meta">$</span><span class="bash"> git reset --hard HEAD^^     <span class="comment">#版本回退两个版本</span></span></span><br><span class="line"><span class="meta">$</span><span class="bash"> git reset --hard HEAD~100   <span class="comment">#版本回退多个版本</span></span></span><br><span class="line"><span class="meta">$</span><span class="bash"> git remote add origin +地址 <span class="comment">#远程仓库的提交（第一次链接）</span></span></span><br><span class="line"><span class="meta">$</span><span class="bash"> git push -u origin master   <span class="comment">#仓库关联</span></span></span><br><span class="line"><span class="meta">$</span><span class="bash"> git push                    <span class="comment">#远程仓库的提交（第二次及之后）</span></span></span><br></pre></td></tr></table></figure></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 经验分享 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> git </tag>
+            
+            <tag> github </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Hello World</title>
+      <link href="posts/16107/"/>
+      <url>posts/16107/</url>
+      
+        <content type="html"><![CDATA[<p>欢迎来到 <a href="blog.kjchmc.cn">老况的小窝</a>! 这是一个基于hexo搭建的博客。</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p><p>主题：butterfly</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> hexo </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
+</search>

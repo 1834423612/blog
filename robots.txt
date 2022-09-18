@@ -1,0 +1,12 @@
+# welcome to : blog.kjchmc.cn 
+User-agent: *
+Allow: /
+
+Disallow: /js/
+Disallow: /css/
+Disallow: /fonts/
+Disallow: /vendors/
+Disallow: /lib/
+Disallow: /live2d-widget/
+Disallow: /Mem/
+Sitemap: https://blog.kjchmc.cn/sitemap.xml
